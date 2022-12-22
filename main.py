@@ -28,5 +28,5 @@ async def paraphase(paragraph_body: Paragraph):
 
 if __name__ == "__main__":
     uvicorn.run(
-        "main:app", host="0.0.0.0", port=6789, reload=False, forwarded_allow_ips="*"
+        "main:app", host="0.0.0.0", port=8089, reload=False, forwarded_allow_ips="*"
     )
